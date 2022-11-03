@@ -15,7 +15,7 @@ $(function () {
             $this.prop("disabled", true);
 
             $.ajax({
-                url: "contact.php",
+                url: "https://github.com/tjwagner27/tyler-wagner-portfolio.github.io/blob/main/mail/contact.php",
                 type: "POST",
                 data: {
                     name: name,
