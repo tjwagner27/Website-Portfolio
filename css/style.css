@@ -9967,6 +9967,33 @@ h6,
   background: rgba(219, 124, 0, 0.9);
 }
 
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.skills-card {
+  flex-direction: column;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+
+}
+
+.skills-card img {
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+}
+
+.skills-card h6 {
+  align-self: center;
+  border-bottom: solid 1px #000000;
+  padding-top: 5px;
+}
+
 .home {
   position: relative;
   top: 0;
